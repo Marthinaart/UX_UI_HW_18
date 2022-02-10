@@ -2,16 +2,13 @@
     justify-content: space-between; 
     height: 110px;
     align-items: center;
-    outline: 2px solid red;
     }
     
     .myLogo{ 
-        width: 80px;
-        height: 80px;
+        width: 70px;
+        height: 70px;
         display: flex;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
+        margin-left: 30px;
      }
     
     .primaryNav{ 
@@ -22,7 +19,6 @@
     #project{ 
         margin: 10px;
         padding: 5px;
-        outline: 2px solid red;
         width: 130px;
         height: 35px;
         display: flex;
@@ -34,7 +30,6 @@
      #about{ 
          margin: 10px;
          padding: 5px;
-         outline: 2px solid red;
          width: 130px;
         height: 35px;
         display: flex;
@@ -46,7 +41,6 @@
       #resume{ 
           margin: 10px;
           padding: 5px;
-          outline: 2px solid red;
           width: 130px;
         height: 35px;
         display: flex;
@@ -57,7 +51,6 @@
        #contact{ 
            margin: 10px;
            padding: 5px;
-           outline: 2px solid red;
            width: 130px;
         height: 35px;
         display: flex;
@@ -66,4 +59,44 @@
         font-size: 30px;
         }
     
+    .search{
+        margin-right: 30px;
+        outline: 2px solid black;
+        width: 200px;
+        height: 30px;
+        border-radius: 5px;
+       text-align: center;
+    }
+    .searchgrp{
+        display: flex;
+    }
+    .mainContent{
+        display: flex;
+        height: 600px;
+        width: 1600px;
+        justify-content: space-between;
+        align-content: center;
+        margin: 50px;
+    }
+     #imageBigmartha{
+         display: flex;
+         height: 600px;
+         width: 788px;
+         background-image: url("../images/IMG_7075\ 1.png");
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         align-items:center;
+     } 
+     #marthaBio{
+        display: flex;
+        height: 600px;
+        width: 788px;
+        justify-content: center;
+        align-items: center;
+        font-size: large;
+    } 
+
+     
+
     
