@@ -118,6 +118,49 @@
            width: 33%;
        }
 
+       .skillsResearch{
+           margin: 20px;
+           
+       }
+
+       .skillsResearch img{
+        transition: 0.2s;
+
+    }
+
+       .skillsResearch img:hover{
+           transform: scale(1.2);
+
+       }
+       
+
+       .skillsempathy{
+           margin: 20px;
+           
+       }
+
+       .skillsempathy img{
+           transition: 0.2s;
+       }
+
+       .skillsempathy img:hover{
+           transform: scale(1.2);
+       }
+
+       .usertesting{
+           margin: 20px;
+       }
+
+       .usertesting img{
+           transition: 0.2s;
+
+       }
+
+       .usertesting img:hover{
+           transform: scale(1.2)
+       }
+
+
        .skillsTitle {
            text-align: center;
            padding:20px;
@@ -173,7 +216,19 @@
         border: 2px solid black;
         justify-content: center;
         background-color: #F4DF38;
+        
     }
+
+    button {
+        transition: 0.2s;
+    }
+
+    button:hover{
+        transform: scale(1.09);
+
+
+    }
+       
     #exhibitions{
         margin: 20px;
         width: 250px;
@@ -184,6 +239,7 @@
         justify-content: center;
         background-color: #F4DF38;
     }
+
     .socialmedia {
         display: flex;
         justify-content: space-evenly;
